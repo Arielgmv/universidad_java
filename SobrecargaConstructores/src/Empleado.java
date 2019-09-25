@@ -3,7 +3,7 @@ public class Empleado extends Persona{
 
     public Empleado(String nombre, int edad, double sueldo){
         super(nombre, edad);
-    this.sueldo = sueldo;
+        this.sueldo = sueldo;
     }
 
     public double getSueldo() {
@@ -11,7 +11,7 @@ public class Empleado extends Persona{
     }
 
     public void setSueldo(double sueldo) {
-        sueldo = sueldo;
+        this.sueldo = sueldo;
     }
 
     @Override
