@@ -32,9 +32,17 @@ public class Animal {
 		System.out.println("5 % 3 = " + modOfNumbers);
 		
 		System.out.print("Enter the name: \n");
+		
+		//hasNextInt, hasNextFloat, HasNextDouble
+		//hasNextByte
+		//NextInt, NextFloat, NextDouble
+		
 		if(userinput.hasNextLine()){
 			this.setName(userInput.nextLine());
 		}
+		
+		this.setFavoriteColor();
+		this.setUniqueID();
 	}
 	
 	public String getName() {
@@ -75,6 +83,12 @@ public class Animal {
 
 	public void setUniqueID(long uniqueID) {
 		this.uniqueID = uniqueID;
+		System.out.println("Unique ID set to: " + this.uniqueID);
+	}
+	
+	public void setUniqueID() {
+		long minNumber = 1;
+		long maxNumber = 1000000;
 	}
 
 	public char getFavoriteChar() {
