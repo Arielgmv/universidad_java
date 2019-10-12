@@ -15,6 +15,6 @@ public class Ventas {
         orden1.agregarProducto(producto2);
 
         //Imprimir la orden
-        orden1.mostrarOden();
+        orden1.mostrarOrden();
     }
 }

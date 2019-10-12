@@ -29,7 +29,7 @@ public class Orden {
         }
         return total;
     }
-    public void mostrarOden(){
+    public void mostrarOrden(){
         System.out.println("Orden #: "+this.idOrden);
         double totalOrden = this.calcularTotal();
         System.out.println("Total de la orden: $"+totalOrden);
