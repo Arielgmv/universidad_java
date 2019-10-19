@@ -2,7 +2,14 @@ package com.ejemplovarargs;
 
 public class EjemploVarArgs {
     public static void main(String[] args) {
+        //Imprimimos varios numeros
+        imprimirNumeros(15, 25, 56, 5, 9, 89);
         
+        System.out.println("");
+        imprimirNumerosForEach(15, 25, 56, 5, 9, 89);
+        
+        System.out.println("");
+        variosParametros("Juan", true, 15,20,14);
     }
     
     public static void imprimirNumeros (int... numeros){
