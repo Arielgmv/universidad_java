@@ -1,5 +1,9 @@
 /.metadata/
 /EjemploJavaDoc/target/
+<<<<<<< HEAD
 /EjemploEnumeraciones/EjemploEnumeraciones/target/
 /BloquesCodigo/BloquesCodigo/target/
 /ForEach/ForEach/target/
+=======
+/EjemploVarArgs/target/
+>>>>>>> 9314cf9706295d2f5713226f387e6d25662ca30e
