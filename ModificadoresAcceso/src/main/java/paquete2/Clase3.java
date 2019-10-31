@@ -13,7 +13,7 @@ public class Clase3 extends Clase1 {
     }
     
     public void pruebaDesdeClase3(){
-        //Acceso a Clase 1 desde Clase2
+        //Acceso a Clase 1 desde Clase 3
         //Clase 3 extiende de Clase 1
         Clase1 c1 = new Clase1();
         System.out.println("");
