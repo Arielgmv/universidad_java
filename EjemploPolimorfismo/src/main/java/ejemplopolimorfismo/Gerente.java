@@ -1,4 +1,4 @@
-package ejemplosobreescritura;
+package ejemplopolimorfismo;
 
 public class Gerente extends Empleado{
     private String departamento;
@@ -10,12 +10,10 @@ public class Gerente extends Empleado{
     
     //Sobreescribimos el metodo padre heredado
     public String obtenerDetalles(){
-        //Observar como accedemos directamente al atributo heredado
-        //debido a que se declaro como protected en la clase padre
-        //y por tanto la clase hija lo hereda y accede directamente
-        return "Nombre: " + nombre +
-                ", sueldo: " + sueldo +
-                ", departamento: " + departamento;
+        //Observamos que para no repetir codigo, podemos utilizar
+        //el metodo del padre y solo agregar a este metodo de la clase hija
+        //esto es invocar un metodo sobreescrito
+        return super.obtenerDetalles() + ", departamento: " + departamento;
     }
 
     public String getDepartamento() {

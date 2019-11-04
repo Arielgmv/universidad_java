@@ -1,16 +1,16 @@
-package ejemplosobreescritura;
+package ejemplopolimorfismo;
 
 public class Empleado {
     protected String nombre;
     protected double sueldo;
     
     protected Empleado(String nombre, double sueldo){
-        this.nombre=nombre;
-        this.sueldo=sueldo;
+        this.nombre = nombre;
+        this.sueldo = sueldo;
     }
-
-    public String obtenerDetalles() {
-        return "Nombre=" + nombre + ", Sueldo=" + sueldo;
+    
+    public String obtenerDetalles(){
+        return "Nombre: " + nombre + ", sueldo: " + sueldo;
     }
 
     public String getNombre() {
